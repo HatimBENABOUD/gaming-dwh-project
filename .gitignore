@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated Spark outputs and local runtime data
+data/lakehouse/
+data/raw/recommendations.csv
+data/raw/users.csv
+
+# Local database and IDE files
+*.sqlite
+*.db
+.vscode/
+.idea/
+.tools/
